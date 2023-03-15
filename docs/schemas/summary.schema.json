@@ -1,0 +1,56 @@
+{
+    "title": "Summary",
+    "type": "object",
+    "properties": {
+        "name": {
+            "type": "string"
+        },
+        "dateOfBirth": {
+            "type": "string",
+            "description": "Date of birth in YYYY-MM-DD format",
+            "pattern": "\\d{4,}-((0\\d)|1[0-2])-(([0-2]\\d)|3[0-1])"
+        },
+        "yearsOfExperience": {
+            "type": "number",
+            "minimum": 0
+        },
+        "driversLicense": {
+            "type": "boolean"
+        },
+        "description": {
+            "type": "string",
+            "description": "A short description of the candidate"
+        },
+        "contacts": {
+            "type": "array",
+            "items": {
+                "type": "object",
+                "properties": {
+                    "type": {
+                        "type": "string",
+                        "pattern": "(PHONE_NUMBER)|(LINK)|(EMAIL)"
+                    },
+                    "description": {
+                        "type": "string"
+                    },
+                    "value": {
+                        "type": "string"
+                    }
+                },
+                "required": [
+                    "type",
+                    "description",
+                    "value"
+                ]
+            },
+            "minItems": 1,
+            "uniqueItems": true
+        }
+    },
+    "required": [
+        "name",
+        "dateOfBirth",
+        "yearsOfExperience",
+        "contacts"
+    ]
+}

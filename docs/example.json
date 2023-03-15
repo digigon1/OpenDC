@@ -1,0 +1,182 @@
+{
+    "summary": {
+        "name": "Gonçalo Almeida",
+        "dateOfBirth": "1995-09-10",
+        "yearsOfExperience": 5,
+        "driversLicense": true,
+        "description": "Backend developer with NodeJS and Python experience with some frontend experience",
+        "contacts": [
+            {
+                "type": "PHONE_NUMBER",
+                "description": "Personal phone number",
+                "value": "+351916846963"
+            },
+            {
+                "type": "LINK",
+                "description": "Linkedin",
+                "value": "https://www.linkedin.com/in/gon%C3%A7alo-almeida-64162397/"
+            },
+            {
+                "type": "LINK",
+                "description": "Github",
+                "value": "https://github.com/digigon1"
+            },
+            {
+                "type": "EMAIL",
+                "description": "Personal email",
+                "value": "gvmca@hotmail.com"
+            }
+        ]
+    },
+    "skills": {
+        "languages": [
+            {
+                "value": "Typescript",
+                "level": 4
+            },
+            {
+                "value": "Python",
+                "level": 4,
+                "versions": [
+                    "3"
+                ]
+            },
+            {
+                "value": "HTML",
+                "level": 3
+            },
+            {
+                "value": "CSS",
+                "level": 3
+            }
+        ],
+        "frameworks": [
+            {
+                "value": "NestJS",
+                "level": 4
+            },
+            {
+                "value": "ExpressJS",
+                "level": 3
+            },
+            {
+                "value": "Flask",
+                "level": 3
+            }
+        ],
+        "tools": [
+            {
+                "value": "Git",
+                "level": 3
+            },
+            {
+                "value": "Visual Studio Code",
+                "level": 3
+            },
+            {
+                "value": "DBeaver",
+                "level": 3
+            }
+        ],
+        "operatingSystems": [
+            {
+                "value": "Linux",
+                "level": 4
+            },
+            {
+                "value": "Windows",
+                "level": 3,
+                "versions": ["XP", "Vista", "7", "8", "10"]
+            },
+            {
+                "value": "MacOS",
+                "level": 2
+            }
+        ],
+        "other": [
+
+        ]
+    },
+    "projects": [
+        {
+            "position": "Software engineer",
+            "company": "Bytepitch",
+            "start": "2021-08-01",
+            "description": "Backend and fullstack development for several clients in Fintech and Water resource management areas",
+            "technologies": [
+                "Typescript", 
+                "NodeJS", 
+                "NestJS", 
+                "AWS Lambdas", 
+                "Svelte", 
+                "React", 
+                "GraphQL", 
+                "PostgreSQL", 
+                "Agile", 
+                "Kanban"
+            ]
+        },
+        {
+            "position": "Software engineer",
+            "company": "BNP Paribas (via Alter Solutions)",
+            "start": "2020-04-01",
+            "end": "2021-07-31",
+            "description": "Python integration for C++ library\nBackend development for testing platform",
+            "technologies": [
+                "Python", 
+                "Flask", 
+                "PostgreSQL", 
+                "Agile"
+            ]
+        },
+        {
+            "position": "BI Intern",
+            "company": "EY",
+            "start": "2019-01-01",
+            "end": "2019-09-30",
+            "description": "ETL Development in Python\nDashboard development in Microstrategy",
+            "technologies": [
+                "Python", 
+                "Microstrategy"
+            ]
+        },
+        {
+            "position": "Developer",
+            "company": "Freelancer",
+            "start": "2017-04-01",
+            "description": "Development of several different projects (Web development mostly)",
+            "technologies": [
+                "NodeJS", 
+                "Python", 
+                "ExpressJS", 
+                "Flask", 
+                "HTML", 
+                "CSS", 
+                "Javascript", 
+                "MySQL"
+            ]
+        }
+    ],
+    "education": [
+        {
+            "course": "Mestrado Integrado em Engenharia Informática",
+            "institution": "Faculdade de Ciências e Tecnologia da Universidade Nova de Lisboa",
+            "start": "2014-09-01",
+            "end": "2020-07-24"
+        }
+    ],
+    "languages": [
+        {
+            "value": "Portuguese",
+            "understanding": "C2",
+            "speaking": "C2",
+            "writing": "C2"
+        },
+        {
+            "value": "English",
+            "understanding": "C1",
+            "speaking": "C1",
+            "writing": "C1"
+        }
+    ]
+}

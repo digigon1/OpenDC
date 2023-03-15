@@ -1,0 +1,30 @@
+{
+    "title": "Language",
+    "type": "object",
+    "properties": {
+        "value": {
+            "type": "string"
+        },
+        "understanding": {
+            "type": "string",
+            "description": "A1/A2 - Basic user\nB1/B2 - Independent user\nC1/C2 - Advanced user",
+            "pattern": "[A-C][1-2]"
+        },
+        "speaking": {
+            "type": "string",
+            "description": "A1/A2 - Basic user\nB1/B2 - Independent user\nC1/C2 - Advanced user",
+            "pattern": "[A-C][1-2]"
+        },
+        "writing": {
+            "type": "string",
+            "description": "A1/A2 - Basic user\nB1/B2 - Independent user\nC1/C2 - Advanced user",
+            "pattern": "[A-C][1-2]"
+        }
+    },
+    "required": [
+        "value",
+        "understanding",
+        "speaking",
+        "writing"
+    ]
+}

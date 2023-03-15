@@ -1,0 +1,27 @@
+{
+    "title": "Education",
+    "type": "object",
+    "properties": {
+        "course": {
+            "type": "string"
+        },
+        "institution": {
+            "type": "string"
+        },
+        "start": {
+            "type": "string",
+            "description": "Start date in YYYY-MM-DD format",
+            "pattern": "\\d{4,}-((0\\d)|1[0-2])-(([0-2]\\d)|3[0-1])"
+        },
+        "end": {
+            "type": "string",
+            "description": "End date in YYYY-MM-DD format",
+            "pattern": "\\d{4,}-((0\\d)|1[0-2])-(([0-2]\\d)|3[0-1])"
+        }
+    },
+    "required": [
+        "course",
+        "institution",
+        "start"
+    ]
+}

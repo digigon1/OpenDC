@@ -1,0 +1,25 @@
+{
+    "title": "Skill",
+    "type": "object",
+    "properties": {
+        "value": {
+            "type": "string"
+        },
+        "level": {
+            "type": "integer",
+            "description": "How confortable you are with this skill\n1 - Beginner/academic only\n2 - Intermediate 1 + small project/internship\n3 - Advanced 1/2 + project experience\n4 - Professional experience\n5 - Expert",
+            "minimum": 1,
+            "maximum": 5
+        },
+        "versions": {
+            "type": "array",
+            "items": {
+                "type": "string"
+            }
+        }
+    },
+    "required": [
+        "value",
+        "level"
+    ]
+}

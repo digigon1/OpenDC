@@ -1,0 +1,77 @@
+{
+    "title": "Dossier",
+    "description": "A dossier of competences",
+    "type": "object",
+    "properties": {
+        "summary": {
+            "$ref": "./summary.schema.json"
+        },
+        "skills": {
+            "type": "object",
+            "properties": {
+                "languages": {
+                    "type": "array",
+                    "items": {
+                        "$ref": "./skill.schema.json"
+                    }
+                },
+                "frameworks": {
+                    "type": "array",
+                    "items": {
+                        "$ref": "./skill.schema.json"
+                    }
+                },
+                "tools": {
+                    "type": "array",
+                    "items": {
+                        "$ref": "./skill.schema.json"
+                    }
+                },
+                "operatingSystems": {
+                    "type": "array",
+                    "items": {
+                        "$ref": "./skill.schema.json"
+                    }
+                },
+                "others": {
+                    "type": "array",
+                    "items": {
+                        "$ref": "./skill.schema.json"
+                    }
+                }
+            },
+            "required": [
+                "languages",
+                "frameworks",
+                "tools",
+                "operatingSystems",
+                "others"
+            ]
+        },
+        "projects": {
+            "type": "array",
+            "items": {
+                "$ref": "./project.schema.json"
+            }
+        },
+        "education": {
+            "type": "array",
+            "items": {
+                "$ref": "./education.schema.json"
+            }
+        },
+        "languages": {
+            "type": "array",
+            "items": {
+                "$ref": "./language.schema.json"
+            }
+        }
+    },
+    "required": [
+        "summary",
+        "skills",
+        "projects",
+        "education",
+        "languages"
+    ]
+}
