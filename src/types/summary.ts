@@ -25,6 +25,14 @@ export class Summary {
     @IsDate()
     public dateOfBirth: Date
 
+    @IsOptional()
+    @IsString()
+    public gender?: string
+
+    @IsOptional()
+    @IsString()
+    public pronouns?: string
+
     @IsNumber()
     @Min(0)
     public yearsOfExperience: number

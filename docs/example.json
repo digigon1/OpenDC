@@ -2,6 +2,8 @@
     "summary": {
         "name": "Gonçalo Almeida",
         "dateOfBirth": "1995-09-10",
+        "gender": "male",
+        "pronouns": "he/him",
         "yearsOfExperience": 5,
         "driversLicense": true,
         "description": "Backend developer with NodeJS and Python experience with some frontend experience",
